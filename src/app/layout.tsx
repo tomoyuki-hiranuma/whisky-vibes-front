@@ -25,10 +25,10 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">
-			<body className={`${geistSans.variable} ${geistMono.variable}`}>
+		<html lang="ja">
+			<body className={`${geistSans.variable} ${geistMono.variable} min`}>
 				<Header />
-				<main className="min-h-screen text-gray-900 font-sans">{children}</main>
+				<main className="text-gray-900 font-sans">{children}</main>
 				<Footer />
 			</body>
 		</html>
